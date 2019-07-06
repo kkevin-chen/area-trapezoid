@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(194, 232, 241);
+    text-align: center;
+}
+
+.div {
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px 60px 40px;
+    border-radius: 30px;
+}
+
+hr {
+    width: 500px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.input-div {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.button {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}

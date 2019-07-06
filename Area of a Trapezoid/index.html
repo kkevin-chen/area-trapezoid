@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Area of a Trapezoid</title>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+  </head>
+
+  <body>
+    <div class='div'>
+
+      <!-- Intro -->
+      <h1>Area of a Trapezoid Calculator</h2>
+      <p>Enter some measurements for a trapezoid to find the area.</p>
+      <p>Note that result may not be exactly accurate due to inherent rounding errors.</p>
+      <img src='area-trapezoid.png'>
+      <hr>
+
+      <!-- Input and Button -->
+      <h3>Input:</h3>
+
+      <div class='input-div'>
+
+        <p><label for='side-a'>Length of side a (first parallel side):</label>
+        <input type='number' id='side-a'></p>
+
+        <p><label for='side-b'>Length of side b (second parallel side):</label>
+        <input type='number' id='side-b'></p>
+
+        <p><label for='height'>Height (perpendicular to sides):</label>
+        <input type='number' id='trap-height'></p>
+
+      </div>
+
+        <p class='button'><button id='submit'>CALCULATE</button></p>
+
+
+
+      <!-- Output -->
+      <hr>
+      <h3 id='output-title'></h3>
+      <p id='output-sentence'></p>
+
+      </div>
+
+      <!-- JavaScript -->
+      <script src='main.js'></script>
+
+  </body>
+
+</html>
